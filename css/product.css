@@ -1,0 +1,276 @@
+:root{
+    --maincolor:#7fb239;
+}
+.top-women{
+    padding-top: 35px;
+}
+.product-card{
+    border:0;
+    
+}
+.product-card img{
+    border-radius: 10px;
+}
+
+.opacy{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.green{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:var(--maincolor);
+}
+.scrol{
+    height:130px;
+    overflow-y: scroll;
+}
+
+
+
+/* price */
+.ui-slider-handle.ui-corner-all.ui-state-default{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--maincolor);
+    outline: none;
+    border: 0;
+    top:-7px
+}
+
+.ui-widget.ui-widget-content{
+    background-color: #c5c5c5;
+    border: 0;
+    height: 4px;
+}
+.ui-slider-range.ui-corner-all.ui-widget-header{
+
+    background-color: var(--maincolor);
+}
+input[type="text"]{
+    border:0;
+     color:var(--maincolor);
+      font-weight:bold;
+      margin-top: 20px;
+}
+
+/* price */
+/* Related product */
+.rel-product{
+    font-size: 14px;
+    color:#8b8b8b ;
+    line-height: 1.6;
+}
+
+.related-imges{
+border-radius: 12px;
+
+}
+.related-card-product{
+    border:none;
+    border-radius: 0;
+    border-top-left-radius: 12px;
+    box-shadow:0px 5px 8px 0px  var(--maincolor);
+}
+
+.related-card-product img:hover{
+opacity: 0.5;
+}
+.related-card-product:hover{
+
+    transform: translateY(-10px);
+}
+/* end related product */
+
+.top-related{
+    font-size: 14px;
+}
+/* .foot-pro{
+    margin-top: 130px;
+} */
+/* Right Side---------
+---------------------- */
+
+/* sup category */
+
+.sup-category{
+margin-top:20px ;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+
+.nav-women{
+    list-style: none;
+}
+.women-side a{
+
+    color:#646464 ;
+    text-transform: uppercase;
+}
+
+.women-side{
+
+    margin-top: 10px;
+}
+
+/*  End sup category */
+
+/*   filter by colors */
+
+
+.color-blue{
+    background-color:#475984;
+}
+.color-brown{
+    background-color:#8a2454;
+}
+.color-pink{
+    background-color:#bf6989;
+}
+.color-pink2{
+    background-color:#9a54d8;
+}
+.color-light-green{
+    background-color:#675f52;
+}
+.color-black{
+    background-color:#050505;
+}
+.color-light-brown{
+    background-color:#d5b47b;
+}
+.color-dark-brown
+{
+    background-color:#8b4513;
+}
+.color-red
+{
+    background-color:#800000;
+}
+
+.color-blue1{
+    background-color:#ffa07a;
+}
+.color-brown1{
+    background-color:#e9967a;
+}
+.color-pink1{
+    background-color:#dc143c;
+}
+.color-pink21{
+    background-color:#ffd700;
+}
+.color-light-green1{
+    background-color:#ff8c00;
+}
+.color-black1{
+    background-color:#82ae46;
+}
+.color-light-brown1{
+    background-color:#66cdaa;
+}
+.color-dark-brown1
+{
+    background-color:#008080;
+}
+.color-red1
+{
+    background-color:#c71585;
+}
+.color a:hover{
+    outline: 1px solid var(--maincolor);
+    outline-offset: 3px;
+
+
+}
+/*  end filter by colors */
+
+/* size */
+.text-size{
+    text-transform: uppercase;
+    color:#212121;
+    font-weight: 700;
+    border:1px solid #bebebe;
+    text-decoration: none;
+    padding:3px 5px
+}
+.select{
+    color:var(--maincolor);
+    text-decoration: none;
+
+}
+.select a{
+    color:var(--maincolor);
+    text-decoration: none;
+
+}
+.select a::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f105";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+.size{
+    color:var(--maincolor);
+    text-decoration: none;
+    border: 1px solid var(--maincolor);
+
+}
+.size a{
+    color:var(--maincolor);
+    text-decoration: none;
+
+}
+
+
+/* .active .text-size{
+    border:2px solid var(--maincolor) !important;
+    color:var(--maincolor)
+} */
+.text-size{
+    text-decoration: none;
+    /* border:2px solid var(--maincolor); */
+}
+.text-size:hover{
+text-decoration: none;
+color:#212121;
+
+}
+
+.form-check-label{
+color:#646464;
+font-size: 17px;
+text-transform: capitalize;
+
+}
+
+/* End size */
+
+
+
+/* related product */
+.title-last-item{
+    font-size: 18px;
+    font-weight:600;
+}
+
+.text-last-item{
+    font-size: 17px;
+}
+
+.active .act {
+
+    color:var(--maincolor)
+}
+
+/* End Related product */
+
+/* End Right Side-------
+------------------------ */
